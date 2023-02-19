@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_toto_top_toto_tops",
+  "info": {
+    "displayName": "totoTop"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "Subtitel": {
+      "type": "string"
+    },
+    "WinnaarsTitel": {
+      "type": "string"
+    },
+    "puntenNaam": {
+      "type": "string"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "buttons.button"
+    }
+  }
+}

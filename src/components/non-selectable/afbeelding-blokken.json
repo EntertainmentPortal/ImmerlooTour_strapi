@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_non_selectable_afbeelding_blokkens",
+  "info": {
+    "displayName": "AfbeeldingBlokken"
+  },
+  "options": {},
+  "attributes": {
+    "Afbeelding": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

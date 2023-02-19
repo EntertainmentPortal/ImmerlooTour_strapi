@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_hero_hero_homepages",
+  "info": {
+    "displayName": "HeroHomepage"
+  },
+  "options": {},
+  "attributes": {
+    "svg": {
+      "type": "text"
+    },
+    "Titel": {
+      "type": "richtext"
+    },
+    "Subtitel": {
+      "type": "richtext"
+    },
+    "Achtergrondfoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

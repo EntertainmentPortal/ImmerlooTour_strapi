@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_text_image_text_image01s",
+  "info": {
+    "displayName": "TextImage01"
+  },
+  "options": {},
+  "attributes": {
+    "Afbeeldingsblokken": {
+      "displayName": "AfbeeldingBlokken",
+      "type": "component",
+      "repeatable": true,
+      "component": "non-selectable.afbeelding-blokken",
+      "max": 12
+    },
+    "Accentteken": {
+      "type": "string"
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "buttons.button"
+    },
+    "Tekst": {
+      "type": "richtext"
+    }
+  }
+}

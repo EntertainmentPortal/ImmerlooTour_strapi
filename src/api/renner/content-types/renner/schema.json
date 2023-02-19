@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "renners",
+  "info": {
+    "singularName": "renner",
+    "pluralName": "renners",
+    "displayName": "Renners"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Rugnummer": {
+      "type": "integer"
+    },
+    "Achternaam": {
+      "type": "string"
+    },
+    "deelnemers": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::deelnemer.deelnemer",
+      "mappedBy": "reserves"
+    }
+  }
+}

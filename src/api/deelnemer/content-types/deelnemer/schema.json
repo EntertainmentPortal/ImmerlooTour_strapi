@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deelnemers",
+  "info": {
+    "singularName": "deelnemer",
+    "pluralName": "deelnemers",
+    "displayName": "Deelnemers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Voornaam": {
+      "type": "string"
+    },
+    "Achternaam": {
+      "type": "string"
+    },
+    "Straatnaam": {
+      "type": "string"
+    },
+    "Huisnummer": {
+      "type": "string"
+    },
+    "Postcode": {
+      "type": "string"
+    },
+    "Woonplaats": {
+      "type": "string"
+    },
+    "Telefoonnummer": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "IBAN": {
+      "type": "string"
+    },
+    "Opmerkingen": {
+      "type": "text"
+    },
+    "renners": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::renner.renner",
+      "inversedBy": "deelnemers"
+    },
+    "reserves": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::renner.renner",
+      "inversedBy": "deelnemers"
+    }
+  }
+}
