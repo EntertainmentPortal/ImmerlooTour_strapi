@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uitslagen",
+  "info": {
+    "singularName": "uitslag",
+    "pluralName": "uitslagen",
+    "displayName": "Uitslagen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "datum": {
+      "type": "date"
+    },
+    "spel": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::spel.spel",
+      "inversedBy": "uitslagen"
+    },
+    "scores": {
+      "displayName": "Scores",
+      "type": "component",
+      "repeatable": true,
+      "component": "scores.scores"
+    }
+  }
+}

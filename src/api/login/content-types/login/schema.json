@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "logins",
+  "info": {
+    "singularName": "login",
+    "pluralName": "logins",
+    "displayName": "Login",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "displayName": "Hero",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "Login": {
+      "displayName": "Login",
+      "type": "component",
+      "repeatable": false,
+      "component": "login.login"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_login_logins",
+  "info": {
+    "displayName": "Login",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    },
+    "WachtwoordKwijtButtonText": {
+      "type": "string"
+    },
+    "WachtwoordKwijtTitel": {
+      "type": "string"
+    },
+    "SubmitWachtwoordKwijtButtonText": {
+      "type": "string"
+    },
+    "WachtwoordKwijtBevestigingsText": {
+      "type": "text"
+    }
+  }
+}

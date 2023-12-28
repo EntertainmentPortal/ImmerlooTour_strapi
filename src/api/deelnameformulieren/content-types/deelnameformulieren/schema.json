@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deelnameformulierens",
+  "info": {
+    "singularName": "deelnameformulieren",
+    "pluralName": "deelnameformulierens",
+    "displayName": "Deelnameformulieren",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "deelnameformulierens"
+    },
+    "formulierCode": {
+      "type": "uid"
+    },
+    "gekozenRenners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::renner.renner"
+    },
+    "gekozenReserves": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::renner.renner"
+    },
+    "spel": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::spel.spel",
+      "inversedBy": "deelnameformulieren"
+    }
+  }
+}

@@ -16,12 +16,6 @@
     },
     "Achternaam": {
       "type": "string"
-    },
-    "deelnemers": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::deelnemer.deelnemer",
-      "mappedBy": "reserves"
     }
   }
 }

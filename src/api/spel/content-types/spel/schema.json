@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "spellen",
+  "info": {
+    "singularName": "spel",
+    "pluralName": "spellen",
+    "displayName": "Spellen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Spelnaam": {
+      "type": "uid"
+    },
+    "Spelafkorting": {
+      "type": "uid"
+    },
+    "Startdatum_inschrijvingen": {
+      "type": "date"
+    },
+    "Einddatum_inschrijvingen": {
+      "type": "date"
+    },
+    "renners": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::renner.renner"
+    },
+    "deelnameformulieren": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::deelnameformulieren.deelnameformulieren",
+      "mappedBy": "spel"
+    },
+    "uitslagen": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::uitslag.uitslag",
+      "mappedBy": "spel"
+    }
+  }
+}

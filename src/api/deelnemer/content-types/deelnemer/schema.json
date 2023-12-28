@@ -42,17 +42,10 @@
     "Opmerkingen": {
       "type": "text"
     },
-    "renners": {
+    "deelnameformulieren": {
       "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::renner.renner",
-      "inversedBy": "deelnemers"
-    },
-    "reserves": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::renner.renner",
-      "inversedBy": "deelnemers"
+      "relation": "oneToMany",
+      "target": "api::deelnameformulieren.deelnameformulieren"
     }
   }
 }

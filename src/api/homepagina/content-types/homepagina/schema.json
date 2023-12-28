@@ -4,10 +4,11 @@
   "info": {
     "singularName": "homepagina",
     "pluralName": "homepaginas",
-    "displayName": "Homepagina"
+    "displayName": "Homepagina",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {

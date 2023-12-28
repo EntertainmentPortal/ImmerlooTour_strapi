@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_scores_scores",
+  "info": {
+    "displayName": "Scores",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "renner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::renner.renner"
+    },
+    "punten": {
+      "type": "integer"
+    }
+  }
+}

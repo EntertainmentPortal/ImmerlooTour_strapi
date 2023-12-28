@@ -1,25 +1,30 @@
 {
   "collectionName": "components_hero_hero_homepages",
   "info": {
-    "displayName": "HeroHomepage"
+    "displayName": "HeroHomepage",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "svg": {
       "type": "text"
     },
-    "Titel": {
-      "type": "richtext"
+    "Titel_lijn1": {
+      "type": "string"
+    },
+    "Titel_lijn2": {
+      "type": "string"
     },
     "Subtitel": {
-      "type": "richtext"
+      "type": "string"
     },
     "Achtergrondfoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
