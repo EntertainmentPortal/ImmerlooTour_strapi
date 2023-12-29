@@ -23,6 +23,9 @@
     },
     "WachtwoordKwijtBevestigingsText": {
       "type": "text"
+    },
+    "TerugNaarInloggenText": {
+      "type": "string"
     }
   }
 }

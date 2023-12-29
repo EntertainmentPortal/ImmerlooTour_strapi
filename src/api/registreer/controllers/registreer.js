@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * deelnemer controller
+ * registreer controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::deelnemer.deelnemer');
+module.exports = createCoreController('api::registreer.registreer');

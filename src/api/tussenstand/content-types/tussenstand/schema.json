@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "tussenstanden",
+  "info": {
+    "singularName": "tussenstand",
+    "pluralName": "tussenstanden",
+    "displayName": "Tussenstand",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "displayName": "HeroTussenstand",
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero-tussenstand"
+    },
+    "PaginaTitel": {
+      "type": "richtext"
+    }
+  }
+}

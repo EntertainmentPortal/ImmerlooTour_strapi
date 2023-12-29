@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_register_registreers",
+  "info": {
+    "displayName": "Registreer"
+  },
+  "options": {},
+  "attributes": {
+    "Titel": {
+      "type": "string"
+    },
+    "ButtonText": {
+      "type": "string"
+    }
+  }
+}

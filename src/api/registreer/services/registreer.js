@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * deelnemer service
+ * registreer service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::deelnemer.deelnemer');
+module.exports = createCoreService('api::registreer.registreer');

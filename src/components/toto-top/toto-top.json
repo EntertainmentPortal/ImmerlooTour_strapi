@@ -27,6 +27,10 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::spel.spel"
+    },
+    "geenDeelnemersPlaceholder": {
+      "type": "string",
+      "default": "Er zijn nog geen deelnemers voor dit spel."
     }
   }
 }

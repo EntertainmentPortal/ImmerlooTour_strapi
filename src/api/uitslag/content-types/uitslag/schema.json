@@ -21,6 +21,9 @@
       "target": "api::spel.spel",
       "inversedBy": "uitslagen"
     },
+    "dagprijs": {
+      "type": "decimal"
+    },
     "scores": {
       "displayName": "Scores",
       "type": "component",

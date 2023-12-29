@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_hero_hero_tussenstands",
+  "info": {
+    "displayName": "HeroTussenstand"
+  },
+  "options": {},
+  "attributes": {
+    "Achtergrondfoto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Titel": {
+      "type": "string"
+    },
+    "Subtitel": {
+      "type": "string"
+    }
+  }
+}

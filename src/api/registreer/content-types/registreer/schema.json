@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "registreers",
+  "info": {
+    "singularName": "registreer",
+    "pluralName": "registreers",
+    "displayName": "Registreer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hero.hero"
+    },
+    "Registreer": {
+      "displayName": "Registreer",
+      "type": "component",
+      "repeatable": false,
+      "component": "register.registreer"
+    }
+  }
+}
