@@ -15,18 +15,10 @@
     "WinnaarsTitel": {
       "type": "string"
     },
-    "puntenNaam": {
-      "type": "string"
-    },
     "button": {
       "type": "component",
       "repeatable": true,
       "component": "buttons.button"
-    },
-    "getoondSpel": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::spel.spel"
     },
     "geenDeelnemersPlaceholder": {
       "type": "string",

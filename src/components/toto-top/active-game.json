@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_toto_top_active_games",
+  "info": {
+    "displayName": "activeGame"
+  },
+  "options": {},
+  "attributes": {
+    "getoondSpel": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::spel.spel"
+    },
+    "puntenNaam": {
+      "type": "string"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_register_registreers",
   "info": {
-    "displayName": "Registreer"
+    "displayName": "Registreer",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,6 +11,10 @@
     },
     "ButtonText": {
       "type": "string"
+    },
+    "NaarLoginText": {
+      "type": "string",
+      "default": "Ik heb al een account"
     }
   }
 }

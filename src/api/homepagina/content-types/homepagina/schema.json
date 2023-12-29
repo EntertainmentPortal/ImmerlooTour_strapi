@@ -12,6 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
+    "Metadata": {
+      "displayName": "Metadata",
+      "type": "component",
+      "repeatable": false,
+      "component": "metadata.metadata"
+    },
     "Hero": {
       "displayName": "HeroHomepage",
       "type": "component",

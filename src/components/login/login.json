@@ -26,6 +26,10 @@
     },
     "TerugNaarInloggenText": {
       "type": "string"
+    },
+    "NaarRegistrerenText": {
+      "type": "string",
+      "default": "Ik heb nog geen account"
     }
   }
 }

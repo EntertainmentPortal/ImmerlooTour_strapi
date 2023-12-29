@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "logins",
+  "collectionName": "accounts",
   "info": {
-    "singularName": "login",
-    "pluralName": "logins",
-    "displayName": "Login",
-    "description": ""
+    "singularName": "account",
+    "pluralName": "accounts",
+    "displayName": "Account"
   },
   "options": {
     "draftAndPublish": false
@@ -19,16 +18,9 @@
       "component": "metadata.metadata"
     },
     "Hero": {
-      "displayName": "Hero",
       "type": "component",
       "repeatable": false,
       "component": "hero.hero"
-    },
-    "Login": {
-      "displayName": "Login",
-      "type": "component",
-      "repeatable": false,
-      "component": "login.login"
     }
   }
 }

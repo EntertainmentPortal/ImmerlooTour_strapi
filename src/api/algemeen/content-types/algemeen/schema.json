@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "algemeens",
+  "info": {
+    "singularName": "algemeen",
+    "pluralName": "algemeens",
+    "displayName": "Algemeen",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Navbar": {
+      "displayName": "navbar",
+      "type": "component",
+      "repeatable": false,
+      "component": "navbar.navbar"
+    },
+    "Hoofdspel": {
+      "displayName": "activeGame",
+      "type": "component",
+      "repeatable": false,
+      "component": "toto-top.active-game"
+    }
+  }
+}
