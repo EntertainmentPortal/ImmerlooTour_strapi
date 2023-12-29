@@ -20,19 +20,6 @@
       "configurable": false,
       "required": true
     },
-    "avatar": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false
-    },
-    "firstname": {
-      "type": "string"
-    },
-    "lastname": {
-      "type": "string"
-    },
     "email": {
       "type": "email",
       "minLength": 6,
@@ -45,24 +32,6 @@
       "configurable": false,
       "private": true,
       "searchable": false
-    },
-    "street": {
-      "type": "string"
-    },
-    "number": {
-      "type": "string"
-    },
-    "postalCode": {
-      "type": "string"
-    },
-    "city": {
-      "type": "string"
-    },
-    "phone": {
-      "type": "string"
-    },
-    "iban": {
-      "type": "string"
     },
     "provider": {
       "type": "string",
@@ -97,11 +66,38 @@
       "inversedBy": "users",
       "configurable": false
     },
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "iban": {
+      "type": "string"
+    },
     "deelnameformulierens": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::deelnameformulieren.deelnameformulieren",
       "mappedBy": "user"
+    },
+    "avatar": {
+      "type": "string"
     }
   }
 }
