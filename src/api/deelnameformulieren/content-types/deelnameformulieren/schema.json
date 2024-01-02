@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "user": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "deelnameformulierens"
-    },
     "formulierCode": {
       "type": "uid"
     },
@@ -35,6 +29,12 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::spel.spel",
+      "inversedBy": "deelnameformulieren"
+    },
+    "deelnemer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::deelnemer.deelnemer",
       "inversedBy": "deelnameformulieren"
     }
   }

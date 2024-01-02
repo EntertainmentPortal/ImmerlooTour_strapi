@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "deelnemers",
+  "info": {
+    "singularName": "deelnemer",
+    "pluralName": "deelnemers",
+    "displayName": "Deelnemers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "iban": {
+      "type": "string"
+    },
+    "deelnameformulieren": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::deelnameformulieren.deelnameformulieren",
+      "mappedBy": "deelnemer"
+    },
+    "userAccount": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "deelnemer"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -24,6 +24,9 @@
     "Einddatum_inschrijvingen": {
       "type": "date"
     },
+    "Prijzenpot": {
+      "type": "decimal"
+    },
     "renners": {
       "type": "relation",
       "relation": "oneToMany",
@@ -40,6 +43,12 @@
       "relation": "oneToMany",
       "target": "api::uitslag.uitslag",
       "mappedBy": "spel"
+    },
+    "Uitslagen": {
+      "displayName": "Uitslagen",
+      "type": "component",
+      "repeatable": true,
+      "component": "uitslag.uitslagen"
     }
   }
 }

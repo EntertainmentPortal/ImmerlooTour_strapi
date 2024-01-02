@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_uitslag_uitslagens",
+  "info": {
+    "displayName": "Uitslagen",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "datum": {
+      "type": "date"
+    },
+    "dagprijs": {
+      "type": "decimal"
+    },
+    "bonus": {
+      "type": "boolean",
+      "default": false
+    },
+    "scores": {
+      "displayName": "Scores",
+      "type": "component",
+      "repeatable": true,
+      "component": "scores.scores"
+    }
+  }
+}
