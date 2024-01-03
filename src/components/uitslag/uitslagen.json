@@ -12,10 +12,6 @@
     "dagprijs": {
       "type": "decimal"
     },
-    "bonus": {
-      "type": "boolean",
-      "default": false
-    },
     "scores": {
       "displayName": "Scores",
       "type": "component",

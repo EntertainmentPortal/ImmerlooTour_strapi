@@ -24,9 +24,6 @@
     "Einddatum_inschrijvingen": {
       "type": "date"
     },
-    "Prijzenpot": {
-      "type": "decimal"
-    },
     "renners": {
       "type": "relation",
       "relation": "oneToMany",
@@ -36,12 +33,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::deelnameformulieren.deelnameformulieren",
-      "mappedBy": "spel"
-    },
-    "uitslagen": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::uitslag.uitslag",
       "mappedBy": "spel"
     },
     "Uitslagen": {
